@@ -1,0 +1,11 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#define pi 3.14159
+using namespace std;
+int main(){
+    double a;
+    cin >> a;
+    cout<<"A = "<<pi *pow(a,2)<<setprecision(4)<<fixed<<endl;
+    return 0;
+}
